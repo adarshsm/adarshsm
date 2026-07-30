@@ -1,16 +1,16 @@
-## Hi there 👋
+# Hi, I'm Adarsh 👋
 
-<!--
-**adarshsm/adarshsm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Open-source contributor focused on **Python** and **TypeScript / JavaScript**. I find real bugs in projects I use, reproduce and root-cause them, and send tested fixes upstream.
 
-Here are some ideas to get you started:
+### 🔭 What I'm doing
+- Contributing to open-source ML & web tooling — e.g. [feast](https://github.com/feast-dev/feast) and [folium](https://github.com/python-visualization/folium)
+- Reviewing and triaging issues/PRs in projects I care about
+- Working toward maintainer roles on the projects I contribute to most
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠️ Tech
+`Python` · `TypeScript` · `JavaScript` · `C++`
+
+### 📊 GitHub
+![Adarsh's GitHub stats](https://github-readme-stats.vercel.app/api?username=adarshsm&show_icons=true&hide_border=true)
+
+<!-- This is a starting template — personalize it freely. -->
