@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Adarsh 👋</h1>
+<h1 align="center">Hi, I'm Adarsh S M 👋</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1200&color=4C7BD1&center=true&vCenter=true&width=580&lines=Open-source+contributor;Python+%26+TypeScript+developer;I+find+and+fix+real+bugs+upstream" alt="typing banner" />
@@ -57,11 +57,9 @@
 ### 🤝 Connect
 
 <p align="center">
+  <a href="https://adarshsm.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-4C7BD1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/adarshsm/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/adarshsm"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <!-- Add your own links below when ready:
-  <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-4C7BD1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  -->
 </p>
 
 <p align="center"><sub>Open to collaborating on interesting open-source Python / TypeScript work.</sub></p>
