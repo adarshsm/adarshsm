@@ -17,7 +17,7 @@
 
 **Five years shipping AI from research to production.**
 
-Currently building [AURA](https://adarshsm.vercel.app) — a 30B multimodal foundation model generating 2K video + synchronized stereo audio in a single forward pass, with sampling cut from 50 steps to ≤8 via Rectified Flow + step distillation.
+Currently building [AURA] — a 30B multimodal foundation model generating 2K video + synchronized stereo audio in a single forward pass, with sampling cut from 50 steps to ≤8 via Rectified Flow + step distillation.
 
 Previously: ML Engineer at [DRDO's Centre for AI & Robotics](https://www.drdo.gov.in/labs-and-establishments/centre-artificial-intelligence-robotics-cair), leading battlefield edge inference for the Indian Army. Senior Systems Engineer at Infosys building production observability at scale.
 
@@ -44,7 +44,7 @@ The through-line across all of it: **inference budgets** — getting capable mod
 </td>
 <td width="33%" valign="top">
 
-**📜 [Sigil](https://adarshsm.vercel.app)**
+**📜 [Sigil]([https://adarshsm.vercel.app](https://sigilnative.com/))**
 
 Mobile app converting spoken agreements into binding micro-contracts. The LLM runs entirely on-device — zero cloud round-trips, complete privacy.
 
