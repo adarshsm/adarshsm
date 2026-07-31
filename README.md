@@ -19,7 +19,6 @@
 
 Currently building [AURA] — a 30B multimodal foundation model generating 2K video + synchronized stereo audio in a single forward pass, with sampling cut from 50 steps to ≤8 via Rectified Flow + step distillation.
 
-Previously: ML Engineer at [DRDO's Centre for AI & Robotics](https://www.drdo.gov.in/labs-and-establishments/centre-artificial-intelligence-robotics-cair), leading battlefield edge inference for the Indian Army. Senior Systems Engineer at Infosys building production observability at scale.
 
 > *"A model that only works at fifty sampling steps is a research result, not a product."*
 
