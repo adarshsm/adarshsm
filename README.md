@@ -1,67 +1,134 @@
-<h1 align="center">Hi, I'm Adarsh S M 👋</h1>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1200&color=4C7BD1&center=true&vCenter=true&width=580&lines=Open-source+contributor;Python+%26+TypeScript+developer;I+find+and+fix+real+bugs+upstream" alt="typing banner" />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=900&color=9B8AFB&center=true&vCenter=true&width=680&lines=Hi+%F0%9F%91%8B+I'm+Adarsh+S+M;AI+Research+Engineer+%7C+Founder;Generative+models+%2B+the+systems+that+ship+them;Inference+budgets+%3E+benchmark+scores" alt="Typing SVG" />
 
-<p align="center">
-  I contribute <b>tested bug fixes to large open-source Python projects</b> — reproducing issues,<br/>
-  root-causing them in unfamiliar codebases, and getting the fix merged with the maintainers.
-</p>
+<br/>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-Real%20bug%20fixes-4C7BD1?style=flat-square" alt="focus" />
-  <img src="https://komarev.com/ghpvc/?username=adarshsm&style=flat-square&color=4C7BD1&label=Profile+views" alt="views" />
-</p>
+<a href="https://adarshsm.vercel.app"><img src="https://img.shields.io/badge/Portfolio-adarshsm.vercel.app-6E56CF?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+<a href="https://linkedin.com/in/adarshsm"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="mailto:adarshsmwork@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<img src="https://komarev.com/ghpvc/?username=adarshsm&style=for-the-badge&color=6E56CF&label=PROFILE+VIEWS" />
+
+</div>
 
 ---
 
-### 🔧 Recent open-source contributions
+<img align="right" width="390" src="https://github-readme-stats.vercel.app/api?username=adarshsm&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github&hide_title=true" />
 
-| Project | Stars | What I did |
-| :------ | :---- | :--------- |
-| **[feast](https://github.com/feast-dev/feast)** — ML feature store | 7k+ ⭐ | Fixed event-time ordering in the Redis online store — **merged ✅** |
-| **[statsmodels](https://github.com/statsmodels/statsmodels)** — statistics / econometrics | 10k+ ⭐ | Fixing a SARIMAX `extend` validation bug — *in review with the lead maintainer* |
-| **[folium](https://github.com/python-visualization/folium)** — Leaflet maps for Python | 7k+ ⭐ | Code review & issue triage on the map-rendering internals |
-| **[pydantic](https://github.com/pydantic/pydantic)** — data validation | 20k+ ⭐ | Answering usage questions in the community |
+**Five years shipping AI from research to production.**
 
-> I focus on **correctness fixes over cosmetic changes**, prove each fix with a failing-then-passing test, and I'm working toward maintainer roles on the projects I contribute to most.
+Currently building [AURA](https://adarshsm.vercel.app) — a 30B multimodal foundation model generating 2K video + synchronized stereo audio in a single forward pass, with sampling cut from 50 steps to ≤8 via Rectified Flow + step distillation.
+
+Previously: ML Engineer at [DRDO's Centre for AI & Robotics](https://www.drdo.gov.in/labs-and-establishments/centre-artificial-intelligence-robotics-cair), leading battlefield edge inference for the Indian Army. Senior Systems Engineer at Infosys building production observability at scale.
+
+> *"A model that only works at fifty sampling steps is a research result, not a product."*
+
+The through-line across all of it: **inference budgets** — getting capable models to run fast, cheap, and reliably outside the lab.
+
+<br clear="right"/>
 
 ---
 
-### 🛠️ Tech I work with
+## 🔭 What I'm Building
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**🎬 AURA**
+
+30B multimodal foundation model. 2K video + stereo audio in one forward pass. 50-step sampling distilled to ≤8 via Rectified Flow + Latent Consistency Models.
+
+`PyTorch` `DiT` `Rectified Flow` `Distributed Training`
+
+</td>
+<td width="33%" valign="top">
+
+**📜 [Sigil](https://adarshsm.vercel.app)**
+
+Mobile app converting spoken agreements into binding micro-contracts. The LLM runs entirely on-device — zero cloud round-trips, complete privacy.
+
+`On-device SLMs` `Speech Processing` `Privacy-first`
+
+</td>
+<td width="33%" valign="top">
+
+**⚡ [SemantiCache](https://github.com/adarshsm/semanticache)**
+
+Semantic LLM caching. 61% cache hit rate on real chatbot data. Cut API costs 40–70% with one Python decorator. Zero external dependencies.
+
+`Python` `Sentence Transformers` `SQLite` `MIT`
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🌍 Open Source
+
+Correctness fixes over cosmetic changes — every fix ships with a failing-then-passing test:
+
+| Repository | Stars | Contribution | Status |
+|:--|:--|:--|:--|
+| [**feast**](https://github.com/feast-dev/feast) | 7k+ ⭐ | Redis online store event-time ordering fix | ✅ Merged |
+| [**statsmodels**](https://github.com/statsmodels/statsmodels) | 10k+ ⭐ | SARIMAX `extend()` validation bug | 🔄 In Review |
+| [**folium**](https://github.com/python-visualization/folium) | 7k+ ⭐ | Code review & issue triage | 🤝 Active |
+| [**pydantic**](https://github.com/pydantic/pydantic) | 20k+ ⭐ | Community support & Q&A | 🤝 Active |
+
+---
+
+## 🧠 Tech Stack
+
+**Generative AI & ML**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Diffusion Transformers](https://img.shields.io/badge/Diffusion_Transformers-6E56CF?style=flat-square)
+![Rectified Flow](https://img.shields.io/badge/Rectified_Flow-9B8AFB?style=flat-square)
+![LCM](https://img.shields.io/badge/Latent_Consistency_Models-5C4EE5?style=flat-square)
+![Fine-tuning](https://img.shields.io/badge/LLM_Fine--tuning-FF6B6B?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG_Pipelines-4CAF50?style=flat-square)
+![FAISS](https://img.shields.io/badge/FAISS-00BCD4?style=flat-square)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square)
+
+**Languages & Frameworks**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-&nbsp;
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+
+**Cloud & MLOps**
+
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![IBM Cloud](https://img.shields.io/badge/IBM_Cloud-1261FE?style=flat-square&logo=ibm&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
 ---
 
-### 📊 GitHub at a glance
+## 📊 Stats
 
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=adarshsm&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&title_color=4C7BD1&icon_color=4C7BD1&hide=issues" alt="stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adarshsm&layout=compact&hide_border=true&langs_count=8&title_color=4C7BD1" alt="top languages" />
-</p>
+<div align="center">
+<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=adarshsm&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
+<img height="155" src="https://github-readme-streak-stats.herokuapp.com/?user=adarshsm&theme=tokyonight&hide_border=true" />
+</div>
 
 ---
 
-### 🤝 Connect
+## 📌 Featured
 
-<p align="center">
-  <a href="https://adarshsm.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-4C7BD1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/adarshsm/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/adarshsm"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-</p>
+<div align="center">
+<a href="https://github.com/adarshsm/semanticache">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=adarshsm&repo=semanticache&theme=tokyonight&hide_border=true" />
+</a>
+</div>
 
-<p align="center"><sub>Open to collaborating on interesting open-source Python / TypeScript work.</sub></p>
+---
 
-<!-- profile README v1 -->
+<div align="center">
+<sub>📍 Bengaluru, India &nbsp;·&nbsp; Open to collaboration on inference optimization, multimodal generation, and impactful open source</sub>
+</div>
+
+<!-- profile README v2 -->
