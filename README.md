@@ -70,10 +70,11 @@ Correctness fixes over cosmetic changes — every fix ships with a failing-then-
 
 | Repository | Stars | Contribution | Status |
 |:--|:--|:--|:--|
-| [**feast**](https://github.com/feast-dev/feast) | 7k+ ⭐ | Redis online store event-time ordering fix | ✅ Merged |
-| [**statsmodels**](https://github.com/statsmodels/statsmodels) | 10k+ ⭐ | SARIMAX `extend()` validation bug | 🔄 In Review |
-| [**folium**](https://github.com/python-visualization/folium) | 7k+ ⭐ | Code review & issue triage | 🤝 Active |
-| [**pydantic**](https://github.com/pydantic/pydantic) | 20k+ ⭐ | Community support & Q&A | 🤝 Active |
+| [**feast**](https://github.com/feast-dev/feast) | 7k+ ⭐ | Redis event-time ordering · pymssql arm64 wheels · single-lookup feature-view resolve · RemoteRegistry client-side cache | ✅ 2 merged · 🔄 2 in review |
+| [**statsmodels**](https://github.com/statsmodels/statsmodels) | 11k+ ⭐ | SARIMAX `extend()` specification-validation fix | ✅ Merged |
+| [**recharts**](https://github.com/recharts/recharts) | 27k+ ⭐ | Rectangle kept mounted while it animates to zero | 🔄 In review |
+| [**Gymnasium**](https://github.com/Farama-Foundation/Gymnasium) | 12k+ ⭐ | `Text` space multi-character charset validation | 🔄 In review |
+| [**folium**](https://github.com/python-visualization/folium) | 7k+ ⭐ | Glyphicons-only stylesheet (drop full Bootstrap) · review & triage | 🔄 In review |
 
 ---
 
