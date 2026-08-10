@@ -17,7 +17,7 @@
 
 **Five years shipping AI from research to production.**
 
-Currently building [AURA] — a 30B multimodal foundation model generating 2K video + synchronized stereo audio in a single forward pass, with sampling cut from 50 steps to ≤8 via Rectified Flow + step distillation.
+Currently building **AURA** — a 30B multimodal foundation model generating 2K video + synchronized stereo audio in a single forward pass, with sampling cut from 50 steps to ≤8 via Rectified Flow + step distillation.
 
 
 > *"A model that only works at fifty sampling steps is a research result, not a product."*
@@ -43,7 +43,7 @@ The through-line across all of it: **inference budgets** — getting capable mod
 </td>
 <td width="33%" valign="top">
 
-**📜 [Sigil]([https://adarshsm.vercel.app](https://sigilnative.com/))**
+**📜 [Sigil](https://sigilnative.com/)**
 
 Mobile app converting spoken agreements into binding micro-contracts. The LLM runs entirely on-device — zero cloud round-trips, complete privacy.
 
@@ -66,15 +66,22 @@ Semantic LLM caching. 61% cache hit rate on real chatbot data. Cut API costs 40�
 
 ## 🌍 Open Source
 
-Correctness fixes over cosmetic changes — every fix ships with a failing-then-passing test:
+Correctness fixes over cosmetic changes — every fix ships with a failing-then-passing test, and each one is reproduced and root-caused before a line is written.
+
+**6 merged upstream** · 10 more in review
 
 | Repository | Stars | Contribution | Status |
 |:--|:--|:--|:--|
-| [**feast**](https://github.com/feast-dev/feast) | 7k+ ⭐ | Redis event-time ordering · pymssql arm64 wheels · single-lookup feature-view resolve · RemoteRegistry client-side cache | ✅ 2 merged · 🔄 2 in review |
-| [**statsmodels**](https://github.com/statsmodels/statsmodels) | 11k+ ⭐ | SARIMAX `extend()` specification-validation fix | ✅ Merged |
-| [**recharts**](https://github.com/recharts/recharts) | 27k+ ⭐ | Rectangle kept mounted while it animates to zero | 🔄 In review |
-| [**Gymnasium**](https://github.com/Farama-Foundation/Gymnasium) | 12k+ ⭐ | `Text` space multi-character charset validation | 🔄 In review |
-| [**folium**](https://github.com/python-visualization/folium) | 7k+ ⭐ | Glyphicons-only stylesheet (drop full Bootstrap) · review & triage | 🔄 In review |
+| [**k6**](https://github.com/grafana/k6) | 31k+ ⭐ | Windows path separators corrupted browser file-persister URLs | 🔄 In review |
+| [**recharts**](https://github.com/recharts/recharts) | 27k+ ⭐ | Rectangle unmounted instantly instead of animating down to zero | 🔄 In review |
+| [**matplotlib**](https://github.com/matplotlib/matplotlib) | 23k+ ⭐ | wxPython 4.3 opened plot windows collapsed to ~132×131 px | ✅ Merged |
+| [**DVC**](https://github.com/treeverse/dvc) | 15k+ ⭐ | Mixed `.dvc`/path targets silently dropped from pull · params named `size`/`nfiles` skipped the run-cache hash | 🔄 2 in review |
+| [**Gymnasium**](https://github.com/Farama-Foundation/Gymnasium) | 12k+ ⭐ | `Text` space sampled values its own `contains()` rejected | ✅ Merged |
+| [**statsmodels**](https://github.com/statsmodels/statsmodels) | 11k+ ⭐ | SARIMAX `extend()` rejected exog that was merely constant over the new window | ✅ Merged |
+| [**Hydra**](https://github.com/facebookresearch/hydra) | 10k+ ⭐ | `instantiate()` merged call-site `dict` arguments instead of replacing them | ✅ Merged |
+| [**folium**](https://github.com/python-visualization/folium) | 7k+ ⭐ | Vendored a glyphicons-only stylesheet instead of all of Bootstrap | 🔄 In review |
+| [**Feast**](https://github.com/feast-dev/feast) | 7k+ ⭐ | Redis event-time ordering · pymssql arm64 wheels · registry caching + materialization reporting | ✅ 2 merged · 🔄 3 in review |
+| [**sqlparse**](https://github.com/andialbrecht/sqlparse) | 4k+ ⭐ | `ROLE` used as a column name stayed a bare keyword | 🔄 In review |
 
 ---
 
