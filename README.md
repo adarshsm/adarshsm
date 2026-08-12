@@ -68,20 +68,21 @@ Semantic LLM caching. 61% cache hit rate on real chatbot data. Cut API costs 40�
 
 Correctness fixes over cosmetic changes — every fix ships with a failing-then-passing test, and each one is reproduced and root-caused before a line is written.
 
-**6 merged upstream** · 10 more in review
+**8 merged upstream** · 11 more in review
 
 | Repository | Stars | Contribution | Status |
 |:--|:--|:--|:--|
-| [**k6**](https://github.com/grafana/k6) | 31k+ ⭐ | Windows path separators corrupted browser file-persister URLs | 🔄 In review |
+| [**k6**](https://github.com/grafana/k6) | 31k+ ⭐ | Windows path separators corrupted browser file-persister URLs | ✅ Merged |
 | [**recharts**](https://github.com/recharts/recharts) | 27k+ ⭐ | Rectangle unmounted instantly instead of animating down to zero | 🔄 In review |
 | [**matplotlib**](https://github.com/matplotlib/matplotlib) | 23k+ ⭐ | wxPython 4.3 opened plot windows collapsed to ~132×131 px | ✅ Merged |
 | [**DVC**](https://github.com/treeverse/dvc) | 15k+ ⭐ | Mixed `.dvc`/path targets silently dropped from pull · params named `size`/`nfiles` skipped the run-cache hash | 🔄 2 in review |
 | [**Gymnasium**](https://github.com/Farama-Foundation/Gymnasium) | 12k+ ⭐ | `Text` space sampled values its own `contains()` rejected | ✅ Merged |
 | [**statsmodels**](https://github.com/statsmodels/statsmodels) | 11k+ ⭐ | SARIMAX `extend()` rejected exog that was merely constant over the new window | ✅ Merged |
-| [**Hydra**](https://github.com/facebookresearch/hydra) | 10k+ ⭐ | `instantiate()` merged call-site `dict` arguments instead of replacing them | ✅ Merged |
+| [**Hydra**](https://github.com/hydra-ecosystem/hydra) | 10k+ ⭐ | `instantiate()` merged call-site `dict` arguments instead of replacing them · errors advertised `HYDRA_FULL_ERROR` to users · redundant macOS CI step · project homepages in the Landscape | ✅ 2 merged · 🔄 2 in review |
 | [**folium**](https://github.com/python-visualization/folium) | 7k+ ⭐ | Vendored a glyphicons-only stylesheet instead of all of Bootstrap | 🔄 In review |
 | [**Feast**](https://github.com/feast-dev/feast) | 7k+ ⭐ | Redis event-time ordering · pymssql arm64 wheels · registry caching + materialization reporting | ✅ 2 merged · 🔄 3 in review |
 | [**sqlparse**](https://github.com/andialbrecht/sqlparse) | 4k+ ⭐ | `ROLE` used as a column name stayed a bare keyword | 🔄 In review |
+| [**dulwich**](https://github.com/jelmer/dulwich) | 2k+ ⭐ | `foo/**/` in `.gitignore` stopped constraining matches to directories | 🔄 In review |
 
 ---
 
