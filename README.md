@@ -18,7 +18,7 @@ Core contributor to a ~30B-parameter foundation model that generates 2K video an
 
 Founder and builder of an AI-native mobile app that turns spoken agreements into signed, tamper-evident micro-contracts. Speech recognition and language-model inference run entirely on-device; the complete workflow works offline after setup.
 
-[Source code](https://github.com/adarshsm/sigil-app) · `Flutter` `whisper.cpp` `On-device SLMs` `Ed25519` `SQLite`
+Private source · `Flutter` `whisper.cpp` `On-device SLMs` `Ed25519` `SQLite`
 
 ### [SemantiCache](https://github.com/adarshsm/semanticache) — semantic LLM caching
 
